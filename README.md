@@ -2,15 +2,16 @@ utvisioncomponents
 ===============
 This is the utvisioncomponents Ubitrack submodule.
 
+Description
+----------
+The utvisioncomponents contains components working on camera images (based on utvision methods). Also contains components to capture and transfer images and videos.
+
+
 Usage
 -----
 In order to use it, you have to clone the buildenvironment, change to the ubitrack directory and add the utvisioncomponents by executing:
 
     git submodule add https://github.com/schwoere/utvisioncomponents.git modules/utvisioncomponents
-
-Description
-----------
-The utvisioncomponents contains components working on camera images (based on utvision methods). Also contains components to capture and transfer images and videos.
 
 
 Dependencies
