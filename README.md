@@ -15,7 +15,7 @@ The utvisioncomponents contains components working on camera images (based on ut
 
 Dependencies
 ----------
-In addition, this component has to following submodule dependencies which have to be added for successful building:
+In addition, this module has to following submodule dependencies which have to be added for successful building:
 
 <table>
   <tr>
