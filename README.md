@@ -11,7 +11,7 @@ Usage
 -----
 In order to use it, you have to clone the buildenvironment, change to the ubitrack directory and add the utvisioncomponents by executing:
 
-    git submodule add https://github.com/schwoere/utvisioncomponents.git modules/utvisioncomponents
+    git submodule add https://github.com/Ubitrack/utvisioncomponents.git modules/utvisioncomponents
 
 
 Dependencies
@@ -20,12 +20,12 @@ In addition, this module has to following submodule dependencies which have to b
 
 <table>
   <tr>
-    <th>Dependency</th><th>Dependent Components</th><th>optional Dependency</th>
+    <th>Components</th><th>Dependency</th>
   </tr>
   <tr>
-    <td>utdataflow, utvision</td><td>utVisionComponents, utVisionIOComponents</td><td>no</td>
+    <td>all</td><td>utDataflow, utVision</td>
   </tr>
   <tr>
-    <td>utcomponents</td><td>ImageTrigger, FrameBuffer, ImageGate, FrameSampler</td><td>yes</td>
+    <td>ImageTrigger, FrameBuffer, ImageGate, FrameSampler</td><td>utComponents</td>
   </tr>
 </table>
