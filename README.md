@@ -20,7 +20,7 @@ In addition, this module has to following submodule dependencies which have to b
 
 <table>
   <tr>
-    <th>Components</th><th>Dependency</th>
+    <th>Component</th><th>Dependency</th>
   </tr>
   <tr>
     <td>all</td><td>utDataflow, utVision</td>
